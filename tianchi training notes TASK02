@@ -248,7 +248,7 @@ set.symmetric_difference_update(set)移除当前集合中在另一个指定集�
 set.issubset(set)判断集合元素是不是被其他集合包含，如果是返回True,否则返回False
 set1 <= set2判断集合是不是被其他集合包含，如果是返回True,否则返回False
 
-set.isuperset(set)判断集合是不是包含其他集合，如果是返回True,否则返回False
+set.issuperset(set)判断集合是不是包含其他集合，如果是返回True,否则返回False
 set1 >= set2判断集合是不是包含其他集合，如果是返回True,否则返回False
 
 set.isdisjoint(set)用于判断两个集合是不是不相交，如果是返回True,否则返回False
